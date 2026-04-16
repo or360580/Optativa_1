@@ -1,0 +1,12 @@
+import random
+
+def main():
+    # Aquí puedes agregar el código que desees
+    print("¡Bienvenido a mi programa!")
+
+    # Ejemplo de uso de la biblioteca random
+    numero_aleatorio = random.randint(1, 100)
+    print(f"Número aleatorio entre 1 y 100: {numero_aleatorio}")
+
+if __name__ == "__main__":
+    main()
